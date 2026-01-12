@@ -5,7 +5,9 @@
 body {
   background-color: #f7f7f7; /* Фоновый цвет */
   padding: 15px;
+  font-family: "Inter", sans-serif;
 }
+
 .page-wrapper {
   max-width: 415px;
   margin: auto;
@@ -14,12 +16,18 @@ body {
   border-radius: 10px;
 }
 .header {
-  padding: 18px 118px 229px;
-  background: linear-gradient(
-      0deg,
-      rgba(58, 58, 58, 0.6),
-      rgba(58, 58, 58, 0.6)
-    ),
-    url();
+  color: #ffff;
+  padding: 18px 105px 229px;
+  background: url("../img/header-bg.png") no-repeat center / cover;
   border-radius: 0 0 90px 90px;
+}
+.hello {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+}
+.hello-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
