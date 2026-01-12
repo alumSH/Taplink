@@ -61,3 +61,37 @@ body {
   text-align: center;
   color: #000;
 }
+.card {
+  background: #fff;
+  box-shadow: 0 0 30px 11px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px; /* чтоб карты отталкивались друг от друга */
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 317px;
+  margin: auto;
+  gap: 10px;
+}
+.button-icon {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 6px;
+}
+.buttons.vk {
+  background: #4680c2;
+}
+.buttons.tg {
+  background: #4680c2;
+}
+.buttons.yt {
+  background: #f00;
+}
