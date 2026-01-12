@@ -72,7 +72,7 @@ body {
 .buttons {
   display: flex;
   justify-content: space-between;
-  max-width: 317px;
+  max-width: 320px;
   margin: auto;
   gap: 10px;
 }
@@ -86,12 +86,13 @@ body {
   width: 100%;
   border-radius: 6px;
 }
-.buttons.vk {
+
+.buttonvk {
   background: #4680c2;
 }
-.buttons.tg {
+.buttontg {
   background: #4680c2;
 }
-.buttons.yt {
-  background: #f00;
+.buttonyt {
+  background: #ff0000;
 }
