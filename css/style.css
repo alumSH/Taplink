@@ -9,11 +9,16 @@ body {
 }
 
 .page-wrapper {
+  overflow: hidden;
   max-width: 415px;
   margin: auto;
   box-shadow: 0 0 30px 0 rgba(180, 180, 180, 0.25);
   background: #f7f7f7;
   border-radius: 10px;
+}
+.container {
+  max-width: 365px;
+  margin: auto;
 }
 .header {
   color: #ffff;
@@ -30,4 +35,29 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+.user {
+  margin-top: -63px;
+  padding-bottom: 45px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 0 30px 11px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.user-avatar {
+  margin-top: -43px;
+  object-fit: cover;
+}
+.user-name {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.user-description {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
 }
