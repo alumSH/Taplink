@@ -62,37 +62,41 @@ body {
   color: #000;
 }
 .card {
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0 0 30px 11px rgba(0, 0, 0, 0.15);
-  border-radius: 20px;
+  border-radius: 10px;
   margin-top: 12px;
   margin-bottom: 12px; /* чтоб карты отталкивались друг от друга */
   padding: 20px;
 }
 .buttons {
   display: flex;
-  justify-content: space-between;
-  max-width: 320px;
-  margin: auto;
-  gap: 10px;
+  width: 100%;
+  gap: 5px;
 }
-.button-icon {
-  background-color: #000;
+/* Стили для каждой кнопки-ссылки */
+.buttons a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1; /* Ключевое свойство - растягивается равномерно */
   height: 40px;
-  flex-shrink: 1;
-  width: 100%;
-  border-radius: 6px;
+  background-repeat: 5px;
+  border-radius: 5px;
 }
-
+/* Стили для иконок внутри */
+.button-icon {
+  width: 24;
+  height: 24px; /* Фиксированный размер иконки */
+  object-fit: contain;
+}
+/* Цвета фона для каждой кнопки */
 .buttonvk {
-  background: #4680c2;
+  background: #2787f5;
 }
 .buttontg {
-  background: #4680c2;
+  background: #37bbfe;
 }
 .buttonyt {
-  background: #ff0000;
+  background: #ce1312;
 }
