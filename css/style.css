@@ -43,12 +43,14 @@ body {
   background: #fff;
   box-shadow: 0 0 30px 11px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
+  background: url("../img/code.png") no-repeat center / cover;
 }
 .user-avatar {
   margin-top: -43px;
   object-fit: cover;
 }
 .user-name {
+  color: #fff;
   margin-top: 5px;
   margin-bottom: 15px;
   font-weight: 400;
@@ -59,7 +61,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 .card {
   background: #ffffff;
@@ -68,6 +70,7 @@ body {
   margin-top: 12px;
   margin-bottom: 12px; /* чтоб карты отталкивались друг от друга */
   padding: 20px;
+  background: url("../img/skal.png") no-repeat center / cover;
 }
 .buttons {
   display: flex;
@@ -75,7 +78,7 @@ body {
   gap: 5px;
 }
 /* Стили для каждой кнопки-ссылки */
-.buttons a {
+.card a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,6 +86,8 @@ body {
   height: 40px;
   background-repeat: 5px;
   border-radius: 5px;
+  gap: 10px;
+  margin-bottom: 6px;
 }
 /* Стили для иконок внутри */
 .button-icon {
@@ -99,4 +104,17 @@ body {
 }
 .buttonyt {
   background: #ce1312;
+}
+.buttongit {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.buttonhh {
+  background: #d6001c;
+  text-decoration: none;
+  color: #fff;
 }
